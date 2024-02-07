@@ -1,0 +1,11 @@
+{% extends "base.html" %}
+
+<title>{{ page_title }}</title>
+
+{% block content %}
+
+{% for key_and_data in keys_and_data %}
+<h4 class="answer_heading">{{key_and_data["title"]}}: {{key_and_data["data"]}}</h4>
+{% endfor %}
+
+{% endblock %}
