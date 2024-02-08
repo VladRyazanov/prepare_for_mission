@@ -1,5 +1,4 @@
 from flask import Flask, render_template
-
 from loginform import LoginForm
 
 app = Flask(__name__)
