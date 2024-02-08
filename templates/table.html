@@ -1,0 +1,30 @@
+{% extends "base.html" %}
+{% block content %}
+<h2>Оформление каюты</h2>
+<table>
+  <tr>
+    <th>Цвет стен</th>
+    <th>Эмблема</th>
+  </tr>
+  <tr>
+    {% if gender == "male" %}
+      {% if age < 21 %}
+        <td class="male_child_color"></td>
+        <td class="child_image"></td>
+      {% else %}
+        <td class="male_adult_color"></td>
+        <td class="adult_image"></td>
+      {% endif %}
+    {% else %}
+      {% if age < 21 %}
+        <td class="female_child_color"></td>
+        <td class="child_image"></td>
+      {% else %}
+        <td class="female_adult_color"></td>
+        <td class="adult_image"></td>
+      {% endif %}
+    {% endif %}
+  </tr>
+</table>
+
+{% endblock %}

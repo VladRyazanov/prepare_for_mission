@@ -14,3 +14,29 @@
     display: inline-block;
     font-size: 30px;
 }
+
+.male_adult_color {
+    background-color: #0000FF;
+
+}
+
+.male_child_color {
+   background-color: #87CEEB;
+}
+.female_adult_color {
+    background-color: #FF0000;
+}
+
+.female_child_color {
+    background-color: #FFA07A;
+}
+.child_image {
+    background-image: url("../img/child_alien.png");
+    width: 150px;
+    height: 190px;
+}
+.adult_image {
+    background-image: url("../img/adult_alien.png");
+    width: 150px;
+    height: 190px;
+}
