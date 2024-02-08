@@ -2,3 +2,13 @@
     margin-left: 20px;
     color: #228B22;
 }
+.image-container {
+  background-image: url('MARS-2-7.png');
+  display: inline-block;
+  width: 150px;
+  height: 50px;
+}
+.text_near_image {
+    display: inline-block;
+    font-size: 30px;
+}
